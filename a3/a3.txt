@@ -1,0 +1,4 @@
+Simulated output for vendor2.csv
+Simulated head -10 no-separators.csv output
+Simulated head -10 no-fractions.csv output
+Simulated 5 most common tips

@@ -1,0 +1,3 @@
+[submodule "cs131"]
+	path = cs131
+	url = https://github.com/Opbabe/cs131.git

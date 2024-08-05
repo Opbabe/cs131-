@@ -1,0 +1,8 @@
+Tue Jul  2 18:57:54 PDT 2024: http://example.com is reachable
+Tue Jul  2 18:57:54 PDT 2024: http://google.com is not reachable (HTTP status code: 301)
+Tue Jul  2 18:57:55 PDT 2024: http://nonexistentwebsite.com is reachable
+Tue Jul  2 18:57:55 PDT 2024:  is not reachable (HTTP status code: )
+Tue Jul  2 18:57:55 PDT 2024:  is not reachable (HTTP status code: )
+Tue Jul  2 19:06:52 PDT 2024: http://example.com is reachable
+Tue Jul  2 19:06:52 PDT 2024: http://google.com is not reachable (HTTP status code: 301)
+Tue Jul  2 19:06:52 PDT 2024: http://nonexistentwebsite.com is reachable

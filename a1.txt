@@ -1,0 +1,57 @@
+1:mkdir a1.txt
+cd a1.txt
+
+2:
+cd
+
+3:
+uid=1278(nicksu24) gid=1279(nicksu24) groups=1279(nicksu24)
+
+4 Memory Info File: meminfo
+4 CPU Info File: cpuinfo
+
+
+5:
+MemTotal:       73080640 kB
+MemFree:         7446016 kB
+MemAvailable:   46279872 kB
+Buffers:          629440 kB
+Cached:         40894720 kB
+SwapCached:            0 kB
+Active:         18007616 kB
+Inactive:       26860352 kB
+Active(anon):    2416128 kB
+Inactive(anon):  4590208 kB
+                                                            
+6:
+processor       : 0
+cpu             : POWER8 (architected), altivec supported
+clock           : 3425.000000MHz
+revision        : 2.1 (pvr 004b 0201)
+
+7:
+NAME="Red Hat Enterprise Linux"
+VERSION="8.6 (Ootpa)"
+PRETTY_NAME="Red Hat Enterprise Linux 8.6 (Ootpa)"  
+
+8:
+cp /datasets/taxidata.tar.gz .
+tar -xzvf taxidata.tar.gz
+cd taxidata
+grep '2019-05-12' 2019-05.csv > may_12_filtered.csv
+awk -F, '{sum += $17; count++} END {if (count > 0) print sum/count; else print "No data"}' may_12_filtered.csv
+
+
+9:
+Highest Amount: 66.36
+
+10:
+20.47
+22.56
+28.56
+30.36
+36.3
+66.36
+10.8
+26.8
+9.3
